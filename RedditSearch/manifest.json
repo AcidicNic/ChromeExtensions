@@ -1,0 +1,16 @@
+{
+  "name": "Search Reddit",
+  "version": "1.0",
+  "description": "Seach Reddit with Google",
+  "permissions": ["tabs", "activeTab"],
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": "img/reddit-dark.png",
+    "default_title": "Search Reddit"
+  },
+  "manifest_version": 2
+}
